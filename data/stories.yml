@@ -1,0 +1,35 @@
+version: "3.1"
+
+stories:
+- story: greet and ask symptoms
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: dengue_symptoms
+    - action: utter_dengue_symptoms
+
+- story: ask prevention
+  steps:
+    - intent: dengue_prevention
+    - action: utter_dengue_prevention
+
+- story: ask treatment
+  steps:
+    - intent: dengue_treatment
+    - action: utter_dengue_treatment
+
+- story: thanks
+  steps:
+    - intent: thank_you
+    - action: utter_thank_you
+
+- story: goodbye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: predict disease story
+  steps:
+  - intent: inform_symptoms
+  - action: action_predict_disease
+

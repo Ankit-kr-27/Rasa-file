@@ -1,0 +1,39 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.lock
+.env
+.env/
+venv/
+.venv/
+
+# =========================
+# Rasa specific
+# =========================
+models/           # trained models (large, auto-generated)
+results/          # evaluation results
+tests/results/    # test run results
+rasa.db           # tracker store database
+events.db         # another default Rasa DB
+*.rasa            # cached training data
+
+# =========================
+# IDE & OS files
+# =========================
+.DS_Store
+Thumbs.db
+.idea/            # PyCharm
+.vscode/          # VSCode
+
+# =========================
+# Node / Frontend (if you add UI later)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

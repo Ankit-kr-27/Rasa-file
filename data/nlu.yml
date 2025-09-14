@@ -1,0 +1,112 @@
+version: "3.1"
+nlu:
+
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+    - good morning
+    - good evening
+    - hi there
+    - hey bot
+    - hello friend
+    - what's up
+    - how are you?
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+    - take care
+    - catch you later
+    - talk to you soon
+    - ok bye
+    - see you tomorrow
+    - have a nice day
+    - I'm leaving now
+
+- intent: thank_you
+  examples: |
+    - thanks
+    - thank you
+    - thanks a lot
+    - appreciate it
+    - many thanks
+    - thanks buddy
+    - thank you so much
+    - cheers
+    - thx
+    - grateful for your help
+
+- intent: dengue_symptoms
+  examples: |
+    - what are the symptoms of dengue?
+    - how do I know if I have dengue?
+    - tell me about dengue symptoms
+    - signs of dengue fever
+    - how does dengue affect the body?
+    - what happens when someone gets dengue?
+    - symptoms of dengue in adults
+    - symptoms of dengue in children
+    - does dengue cause rashes?
+    - is headache a symptom of dengue?
+
+- intent: dengue_prevention
+  examples: |
+    - how can I prevent dengue?
+    - dengue prevention tips
+    - how to avoid dengue infection?
+    - what should I do to stay safe from dengue?
+    - ways to protect against dengue
+    - preventive measures for dengue
+    - how to protect children from dengue
+    - can dengue be prevented?
+    - how to stop mosquitoes spreading dengue?
+    - lifestyle tips to avoid dengue
+
+- intent: dengue_treatment
+  examples: |
+    - how is dengue treated?
+    - dengue treatment options
+    - what to do if I get dengue?
+    - how to cure dengue at home?
+    - medicines for dengue
+    - treatment for dengue fever
+    - what should I eat during dengue?
+    - does dengue require hospital treatment?
+    - how do doctors treat dengue?
+    - is there a cure for dengue?
+
+- intent: dengue_info
+  examples: |
+    - what is dengue?
+    - tell me about dengue
+    - explain dengue
+    - dengue meaning
+    - can you describe dengue?
+    - what is dengue fever?
+    - give me information on dengue
+    - I want to know about dengue
+    - define dengue
+    - dengue symptoms and meaning
+
+- intent: inform_symptoms
+  examples: |
+    - I have fever, headache, and joint pain
+    - My body aches and I have nausea
+    - Feeling weak with high fever
+
+- intent: out_of_scope
+  examples: |
+    - what's your name?
+    - tell me a joke
+    - who is the president of India?
+    - do you like pizza?
+    - random question
+    - what is AI?
+    - what is your purpose?
+    - are you human?
+    - can you dance?
+    - I want to learn coding

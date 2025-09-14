@@ -1,0 +1,47 @@
+version: "3.1"
+
+rules:
+- rule: Greet and respond
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+- rule: Provide dengue symptoms
+  steps:
+    - intent: dengue_symptoms
+    - action: utter_dengue_symptoms
+
+- rule: Provide dengue prevention
+  steps:
+    - intent: dengue_prevention
+    - action: utter_dengue_prevention
+
+- rule: Provide dengue treatment
+  steps:
+    - intent: dengue_treatment
+    - action: utter_dengue_treatment
+
+- rule: Respond to thanks
+  steps:
+    - intent: thank_you
+    - action: utter_thank_you
+
+- rule: Goodbye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- rule: Fallback rule
+  steps:
+    - intent: nlu_fallback
+    - action: utter_fallback
+
+- rule: Respond to dengue info
+  steps:
+  - intent: dengue_info
+  - action: utter_dengue_info  
+
+- rule: Predict disease from symptoms
+  steps:
+  - intent: inform_symptoms
+  - action: action_predict_disease

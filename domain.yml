@@ -1,0 +1,68 @@
+version: "3.1"
+
+intents:
+  - greet
+  - dengue_info
+  - dengue_symptoms
+  - dengue_prevention
+  - dengue_treatment
+  - thank_you
+  - goodbye
+  - inform_symptoms
+  - nlu_fallback 
+
+responses:
+
+  utter_greet:
+    - text: "Hello! I am your MediMitra Bot. How can I assist you today?"
+    - text: "Hi there 👋 I'm MediMitra, your health assistant. What would you like to know?"
+    - text: "Hey! MediMitra here 😊 How can I help you with your health queries?"
+    - text: "Namaste 🙏 I’m your MediMitra Bot. How may I guide you today?"
+    - text: "Welcome! I’m MediMitra, your medical awareness companion. What’s on your mind?"
+
+
+  utter_dengue_symptoms:
+    - text: "Common dengue symptoms include high fever, severe headache, pain behind the eyes, joint and muscle pain, nausea, vomiting, and rash."
+    - text: "Typical symptoms of dengue are high fever, headaches, eye pain, muscle and joint aches, skin rashes, nausea, and sometimes vomiting."
+    - text: "If you have dengue, you may experience fever, severe headache, pain in the eyes, joint/muscle pain, skin rash, and stomach upset like nausea or vomiting."
+    - text: "Dengue symptoms usually include high fever, strong headaches, body and joint pain, nausea, vomiting, and red rashes on the skin."
+
+
+  utter_dengue_prevention:
+    - text: "To prevent dengue: eliminate standing water, use mosquito repellents, wear full-sleeve clothes, and use mosquito nets."
+    - text: "Prevention tips: keep your surroundings clean, avoid stagnant water, apply mosquito repellent, and sleep under nets."
+    - text: "Protect yourself from dengue by wearing full clothes, using repellents, covering water containers, and ensuring no standing water nearby."
+    - text: "Best way to prevent dengue: avoid mosquito bites by cleaning your area, using repellents, and covering up properly."
+
+  utter_dengue_treatment:
+    - text: "Dengue has no specific treatment. Rest, fluids, and fever-reducing medicines are recommended. Severe cases require hospital care."
+    - text: "There is no direct cure for dengue. Stay hydrated, take paracetamol for fever, and consult a doctor if symptoms worsen."
+    - text: "Treatment for dengue mainly includes rest, plenty of fluids, and medicines for fever. Severe cases may need hospital support."
+    - text: "Since dengue has no specific drug, proper rest, hydration, and medical care are essential. Hospitalization is needed in severe cases."
+
+
+  utter_thank_you:
+    - text: "You're welcome! Stay safe and healthy."
+    - text: "Happy to help! Take care of your health."
+    - text: "Anytime! Wishing you good health and safety."
+    - text: "Glad I could assist 😊 Stay well and protect yourself."
+
+
+  utter_goodbye:
+    - text: "Goodbye! Take care and stay safe."
+    - text: "See you soon. Stay healthy and safe!"
+    - text: "Take care 👋 Wishing you good health."
+    - text: "Bye for now! Stay protected and be well."
+
+  utter_dengue_info:
+    - text: "Dengue is a mosquito-borne viral infection that causes high fever, headache, pain behind the eyes, joint and muscle pain, and sometimes skin rashes."
+  
+  utter_fallback:
+    - text: "Sorry, I am unable to understand that. Can you please rephrase?"
+    - text: "Hmm, I didn’t quite get that. Can you say it differently?"
+    - text: "I’m not sure I understand. Try asking in another way?"
+    - text: "Sorry, I didn’t get that. Can you clarify?"
+
+actions:
+  - action_predict_disease
+  - action_default_fallback    
