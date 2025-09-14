@@ -20,7 +20,7 @@ results/          # evaluation results
 tests/results/    # test run results
 rasa.db           # tracker store database
 events.db         # another default Rasa DB
-*.rasa            # cached training data
+*.rasa/cache            # cached training data
 
 # =========================
 # IDE & OS files
