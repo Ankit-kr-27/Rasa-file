@@ -8,6 +8,16 @@ stories:
     - intent: dengue_symptoms
     - action: utter_dengue_symptoms
 
+- story: greet in oria
+  steps: 
+    - intent: greet_oria
+    - action: utter_greet_oria
+
+- story: greet in hindi
+  steps: 
+    - intent: greet_hin
+    - action: utter_greet_hin    
+
 - story: ask prevention
   steps:
     - intent: dengue_prevention

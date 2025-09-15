@@ -6,6 +6,16 @@ rules:
     - intent: greet
     - action: utter_greet
 
+- rule: Greet in oria
+  steps:
+    - intent: greet_oria
+    - action: utter_greet_oria
+
+- rule: Greet in hindi
+  steps:
+    - intent: greet_hin
+    - action: utter_greet_hin          
+
 - rule: Provide dengue symptoms
   steps:
     - intent: dengue_symptoms

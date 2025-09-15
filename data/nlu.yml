@@ -14,6 +14,23 @@ nlu:
     - what's up
     - how are you?
 
+- intent: greet_oria
+  examples: |
+    - ନମସ୍କାର
+    - ହେଲୋ
+    - ସୁପ୍ରଭାତ
+
+- intent: greet_hin
+  examples: |
+    - नमस्ते
+    - हैलो
+    - सुप्रभात
+    - नमस्कार
+    - हाय
+    - हेलो
+    - शुभ प्रभात
+
+
 - intent: goodbye
   examples: |
     - bye
@@ -26,6 +43,9 @@ nlu:
     - see you tomorrow
     - have a nice day
     - I'm leaving now
+    # Odia
+    - ବିଦାୟ
+    - ଫିରି ମିଳିବା
 
 - intent: thank_you
   examples: |

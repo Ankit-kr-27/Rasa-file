@@ -2,6 +2,8 @@ version: "3.1"
 
 intents:
   - greet
+  - greet_oria
+  - greet_hin
   - dengue_info
   - dengue_symptoms
   - dengue_prevention
@@ -19,7 +21,13 @@ responses:
     - text: "Hey! MediMitra here 😊 How can I help you with your health queries?"
     - text: "Namaste 🙏 I’m your MediMitra Bot. How may I guide you today?"
     - text: "Welcome! I’m MediMitra, your medical awareness companion. What’s on your mind?"
+    
 
+  utter_greet_oria:
+    - text: "ନମସ୍କାର! କିପରି ସାହାଯ୍ୟ କରିପାରିବି?"
+
+  utter_greet_hin:
+    - text: "नमस्ते! मैं आपकी कैसे मदद कर सकता हूँ?"  
 
   utter_dengue_symptoms:
     - text: "Common dengue symptoms include high fever, severe headache, pain behind the eyes, joint and muscle pain, nausea, vomiting, and rash."
